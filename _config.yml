@@ -1,16 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+#Start
+site_name: Programming Website
+repo_name: Programming Website
+description: A website for the Programming Sub-team of the Patribots, FRC Team 4738 
+site_author: Jacob Hotz
+
+# Theme
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
 logo: "/assets/images/logo.jpg"
 favicon_ico: "/assets/images/favicon.ico"
 
-# Enable or disable the site search
-# Supports true (default) or false
+# Searching
 search_enabled: true
-
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -34,6 +34,3 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template

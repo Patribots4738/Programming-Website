@@ -4,11 +4,51 @@ nav:
   - About: test.md
 
 #Start
-site_name: Programming Website
+site_name: Team4738
+repo_name: Programming Sub-team Website
+repo_url: "https://github.com/Patribots4738/Programming-Website"
 site_url: https://patribots4738.github.io/
 description: A website for the Programming Sub-team of the Patribots, FRC Team 4738 
 site_author: Jacob Hotz
 
 # Theme
 theme:
-  name: material
+  name: 'material'
+  custom_dir: 'theme'
+  favicon: assets/images/favicon.ico
+  icon:
+    logo: 'material/laptop'
+  features:
+    - navigation.tabs
+    - navigation.instant
+  palette:
+    primary: 'blue'
+    accent: 'light blue'
+    scheme: slate
+extra_css: 
+  # - assets/css/dark_theme.css
+  # - assets/css/codehilite.css
+  - assets/css/4738.css
+use_directory_urls: false
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.betterem
+  - pymdownx.tasklist
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      css_class: 'codehilite'
+  - toc:
+        permalink: "#"
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true

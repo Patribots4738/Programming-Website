@@ -1,0 +1,11 @@
+# Navigation
+nav:
+  - Home: index.md
+  - About: test.md
+
+#Start
+site_name: Programming Website
+site_url: https://patribots4738.github.io/
+theme: readthedocs
+description: A website for the Programming Sub-team of the Patribots, FRC Team 4738 
+site_author: Jacob Hotz

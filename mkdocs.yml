@@ -13,23 +13,58 @@ site_author: Jacob Hotz
 
 # Theme
 theme:
-  name: 'material'
-  custom_dir: 'theme'
-  favicon: assets/images/favicon.ico
-  icon:
-    logo: 'material/laptop'
+  name: material
+  custom_dir: theme
+  favicon: 'assets/images/favicon.ico'
   features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
     - navigation.tabs
-    - navigation.instant
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette:
-    primary: 'blue'
-    accent: 'light blue'
-    scheme: slate
-extra_css: 
-  # - assets/css/dark_theme.css
-  # - assets/css/codehilite.css
-  - assets/css/4738.css
-use_directory_urls: false
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 # Extensions
 markdown_extensions:
@@ -48,7 +83,9 @@ markdown_extensions:
 
 # Plugins
 plugins:
-  - search
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: custom
   - minify:
       minify_html: true
       minify_js: true

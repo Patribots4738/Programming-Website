@@ -1,7 +1,7 @@
 # Navigation
 nav:
   - Home: index.md
-  - About: test.md
+  - About: about.md
 
 #Start
 site_name: Team4738

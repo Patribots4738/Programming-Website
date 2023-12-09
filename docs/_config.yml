@@ -4,6 +4,11 @@ repo_name: Programming Website
 description: A website for the Programming Sub-team of the Patribots, FRC Team 4738 
 site_author: Jacob Hotz
 
+url: https://patribots4738.github.io/Programming-Website/
+
+aux_links:
+  Template Repository: https://github.com/Patribots4738/Programming-Website
+
 # Theme
 theme: just-the-docs
 logo: "/docs/assets/images/logo.jpg"

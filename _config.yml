@@ -6,8 +6,8 @@ site_author: Jacob Hotz
 
 # Theme
 theme: just-the-docs
-logo: "/assets/images/logo.jpg"
-favicon_ico: "/assets/images/favicon.ico"
+logo: "/docs/assets/images/logo.jpg"
+favicon_ico: "/docs/assets/images/favicon.ico"
 color_scheme: dark
 
 # Searching
